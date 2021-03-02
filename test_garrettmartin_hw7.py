@@ -23,5 +23,8 @@ class TestClass(unittest.TestCase):
     def test_divisible100(self):
         self.assertEqual(garrettmartin_hw7.leapyear(1500), False)
 
+    def test_divisible400(self):
+        self.assertEqual(garrettmartin_hw7.leapyear(1600), True)
+
 if __name__ == "__main__":
     unittest.main()
