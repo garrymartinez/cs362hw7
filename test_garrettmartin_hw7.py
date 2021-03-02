@@ -14,5 +14,11 @@ class TestClass(unittest.TestCase):
     def test_fizzbuzz(self):
         self.assertEqual(garrettmartin_hw7.fizzbuzz(14), "FizzBuzz")
 
+#-----------------------------------------------------------------------------
+# Tests for leapyear method
+#-----------------------------------------------------------------------------
+    def test_leapyear(self):
+        self.assertEqual(garrettmartin_hw7.leapyear(2004), True)
+
 if __name__ == "__main__":
     unittest.main()

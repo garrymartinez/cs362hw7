@@ -16,3 +16,6 @@ def fizzbuzz(idx=99):
         return(list[idx])
     else:
         return(print(*list))
+
+def leapyear(x):
+    pass
