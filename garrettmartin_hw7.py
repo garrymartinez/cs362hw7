@@ -5,6 +5,8 @@ def fizzbuzz(idx=99):
     for x in range(1,101):
         if (x % 3 == 0):
             list.append("Fizz")
+        elif (x % 5 == 0):
+            list.append("Buzz")
         else:
             list.append(str(x))
 
