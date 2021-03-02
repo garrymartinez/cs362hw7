@@ -18,7 +18,7 @@ def fizzbuzz(idx=99):
         return(print(*list))
 
 def leapyear(year):
-    if (year % 4 == 0):
+    if (year % 4 == 0 and year % 100 != 0):
         return True
     else:
         return False
